@@ -1,0 +1,671 @@
+body{
+     font-family: "Days One", sans-serif;
+}
+
+.m-t{
+    margin-top: 100px;
+}
+.logo img{
+    width: 20px;
+}
+.logo h2{
+    color: #CBFE1C;
+}
+.titel p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+     color: #CBFE1C;
+}
+.text span{
+font-size: 12px;
+    background-color: #29451B;
+}
+.titel p::after , p::before{
+    content: "";
+    width: 70px;
+    height: 2px;
+    background-color: #CBFE1C ;
+}
+.titel h2{
+    font-size: 50px;
+}
+.nav-link , i{
+        transition:all 0.3s ease;
+
+}
+.navbar ul .nav-link:hover , i:hover {
+    color: #CBFE1C ;
+
+
+}
+.navbar{
+    z-index: 999;
+}
+
+/* end navbar */
+/* ======================= */
+/* start header */
+
+header{
+    padding-top: 100px;
+    background-image:linear-gradient(rgba(0,0,0,0.9)),url(../images/hero-bg.jpg);
+    background-size:cover ;
+    background-position: center;
+}
+.header-left h1{
+    font-size: 60px;
+}
+.header-left h1 span{
+    color: #CBFE1C;
+}
+.header-left p{
+    color: gray;
+}
+.navbar .btn{
+    background-color: #CBFE1C;
+    color: black;
+}
+ .row .button .btn{
+    background-color: #CBFE1C;
+    color: black;
+    margin-right: 20px;
+}
+.row .button .btn-1{
+    background-color: transparent;
+    border: solid 2px #CBFE1C;
+    border-radius: 10px;
+    color: black;
+    color: white;
+}
+ .btn-1 {
+    transition:all 0.5s ease;
+}
+.row .button .btn-1:hover{
+    background-color: #CBFE1C;
+}
+.header-right div{
+padding:  100px ;
+}
+.header-right div img{
+ border: solid 2px #CBFE1C;
+    
+}
+/* end header */
+/* ============================== */
+
+
+
+
+
+
+/* srart our GAMES  */
+.carousel-item i{
+    color: #CBFE1C;
+}
+
+.carousel-item .img-box-1{
+    overflow: hidden;
+}
+.carousel-item .card-1 img{
+    transition: all 500ms;
+}
+.carousel-item .card-1:hover .img-box-1{
+    border: #CBFE1C solid 2px;
+}
+.carousel-item .card-1:hover img{
+    transform: scale(1.1);  
+}
+.carousel-item .card-1 h3{
+    bottom: -50px;
+    transition: all 500ms;
+}
+.carousel-item .card-1:hover h3{
+    bottom: 0;
+}
+.carousel-item .card-1 .text{
+    top: -50px;
+    transition: all 500ms;
+}
+.carousel-item .card-1:hover .text{
+top: 0;
+}
+.carousel-item .img-box-2{
+    overflow: hidden;
+}
+.carousel-item .card-2 img{
+    transition: all 500ms;
+}
+.carousel-item .card-2:hover .img-box-2{
+    border: #CBFE1C solid 2px;
+}
+.carousel-item .card-2:hover img{
+    transform: scale(1.1);  
+}
+.carousel-item .card-2 h3{
+    bottom: -50px;
+    transition: all 500ms;
+}
+.carousel-item .card-2:hover h3{
+    bottom: 0;
+}
+.carousel-item .card-2 .text{
+    top: -50px;
+    transition: all 500ms;
+}
+.carousel-item .card-2:hover .text{
+top: 0;
+}
+.carousel-item .img-box-3{
+    overflow: hidden;
+}
+.carousel-item .card-3 img{
+    transition: all 500ms;
+}
+.carousel-item .card-3:hover .img-box-3{
+    border: #CBFE1C solid 2px;
+}
+.carousel-item .card-3:hover img{
+    transform: scale(1.1);  
+}
+
+.carousel-item .card-3 h3{
+    bottom: -70px;
+    transition: all 500ms;
+}
+.carousel-item .card-3:hover h3{
+    bottom: 0;
+
+}
+.carousel-item .card-3 .text{
+    top: -50px;
+    transition: all 500ms;
+}
+.carousel-item .card-3:hover .text{
+top: 0;
+}
+
+
+.carousel-item .img-box-4{
+    overflow: hidden;
+}
+.carousel-item .card-4 img{
+    transition: all 500ms;
+}
+.carousel-item .card-4:hover .img-box-4{
+    border: #CBFE1C solid 2px;
+}
+.carousel-item .card-4:hover img{
+    transform: scale(1.1);  
+}
+
+.carousel-item .card-4 h3{
+    bottom: -50px;
+    transition: all 500ms;
+}
+.carousel-item .card-4:hover h3{
+    bottom: 0;
+
+}
+.carousel-item .card-4 .text{
+    top: -50px;
+    transition: all 500ms;
+}
+.carousel-item .card-4:hover .text{
+top: 0;
+}
+
+
+
+.carousel-item .img-box-5{
+    overflow: hidden;
+}
+.carousel-item .card-5 img{
+    transition: all 500ms;
+}
+.carousel-item .card-5:hover .img-box-5{
+    border: #CBFE1C solid 2px;
+}
+.carousel-item .card-5:hover img{
+    transform: scale(1.1);  
+}
+
+.carousel-item .card-5 h3{
+    bottom: -50px;
+    transition: all 500ms;
+}
+.carousel-item .card-5:hover h3{
+    bottom: 0;
+
+}
+.carousel-item .card-5 .text{
+    top: -50px;
+    transition: all 500ms;
+}
+.carousel-item .card-5:hover .text{
+top: 0;
+}
+
+
+
+.carousel-item .img-box-6{
+    overflow: hidden;
+}
+.carousel-item .card-6 img{
+    transition: all 500ms;
+}
+.carousel-item .card-6:hover .img-box-6{
+    border: #CBFE1C solid 2px;
+}
+.carousel-item .card-6:hover img{
+    transform: scale(1.1);  
+}
+
+.carousel-item .card-6 h3{
+    bottom: -50px;
+    transition: all 500ms;
+}
+.carousel-item .card-6:hover h3{
+    bottom: 0;
+
+}
+.carousel-item .card-6 .text{
+    top: -50px;
+    transition: all 500ms;
+}
+.carousel-item .card-6:hover .text{
+top: 0;
+}
+
+
+
+.carousel-item .img-box-7{
+    overflow: hidden;
+}
+.carousel-item .card-7 img{
+    transition: all 500ms;
+}
+.carousel-item .card-7:hover .img-box-7{
+    border: #CBFE1C solid 2px;
+}
+.carousel-item .card-7:hover img{
+    transform: scale(1.1);  
+}
+
+.carousel-item .card-7 h3{
+    bottom: -50px;
+    transition: all 500ms;
+}
+.carousel-item .card-7:hover h3{
+    bottom: 0;
+
+}
+.carousel-item .card-7 .text{
+    top: -50px;
+    transition: all 500ms;
+}
+.carousel-item .card-7:hover .text{
+top: 0;
+}
+
+
+
+.carousel-item .img-box-8{
+    overflow: hidden;
+}
+.carousel-item .card-8 img{
+    transition: all 500ms;
+}
+.carousel-item .card-8:hover .img-box-8{
+    border: #CBFE1C solid 2px;
+}
+.carousel-item .card-8:hover img{
+    transform: scale(1.1);  
+}
+
+.carousel-item .card-8 h3{
+    bottom: -50px;
+    transition: all 500ms;
+}
+.carousel-item .card-8:hover h3{
+    bottom: 0;
+
+}
+.carousel-item .card-8 .text{
+    top: -50px;
+    transition: all 500ms;
+}
+.carousel-item .card-8:hover .text{
+top: 0;
+}
+
+
+
+.carousel-item .img-box-9{
+    overflow: hidden;
+}
+.carousel-item .card-9 img{
+    transition: all 500ms;
+}
+.carousel-item .card-9:hover .img-box-9{
+    border: #CBFE1C solid 2px;
+}
+.carousel-item .card-9:hover img{
+    transform: scale(1.1);  
+}
+
+.carousel-item .card-9 h3{
+    bottom: -50px;
+    transition: all 500ms;
+}
+.carousel-item .card-9:hover h3{
+    bottom: 0;
+
+}
+.carousel-item .card-9 .text{
+    top: -50px;
+    transition: all 500ms;
+}
+.carousel-item .card-9:hover .text{
+top: 0;
+}
+section .btn-1{
+    background-color: transparent;
+    border: solid 2px #CBFE1C;
+    border-radius: 10px;
+    color: black;
+    color: white;
+}
+
+section .btn-1:hover{
+    background-color: #CBFE1C;
+}
+section a{
+text-decoration: none;
+ color: aliceblue;
+}
+/* end oyr games */
+/* ============================ */
+/* start wate we do */
+.WHATWEDO .row{
+    padding-block: 30px;
+}
+.WHATWEDO .titel h3{
+    font-size:45px;
+    font-weight: bolder;
+}
+.WHATWEDO .titel h3 span{
+    color: #CBFE1C;
+}
+.WHATWEDO .card{
+    background-color: #1A1A1A;
+    position: relative;
+
+}
+.h-275{
+    height: 275px;
+}
+.WHATWEDO .card i{
+    font-size: 30px;
+    color: #CBFE1C;
+}
+.WHATWEDO .card .icon{
+    margin: 20px;
+    background-color: #0B0E13;
+    padding: 20px; 
+    width: fit-content;
+    margin-inline: auto;
+    transition: 500ms;
+}
+.WHATWEDO .card::after{
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 0;
+    height: 0;
+    border-top: 30px solid #CBFE1C;
+     border-right: 30px solid transparent;
+     transition: 500ms;
+}
+.WHATWEDO .card::before{
+     content: "";
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    width: 0;
+    height: 0;
+    border-bottom: 30px solid #CBFE1C;
+     border-left: 30px solid transparent;
+     transition: 500ms;
+}
+.WHATWEDO .card:hover::before{
+
+bottom: 15px;color: #CBFE1C;
+right: 15px;
+}
+.WHATWEDO .card:hover::after{
+
+top: 15px;
+left: 15px;
+}
+.WHATWEDO .card:hover .icon{
+    background-color: #CBFE1C;
+}
+.WHATWEDO .card:hover i{
+    color: #1A1A1A;
+}
+.WHATWEDO .card:hover {
+    border: #CBFE1C solid 2px;
+
+}
+/* end WHAT WE DO */
+/* ================= */
+/* start animation  */
+.animation {
+
+    padding-block: 50px;
+    width: 100%;
+    /* min-height: 100% ; */
+    background-color: #0d1219;
+    background-image: radial-gradient(   #a8d616 20% , #526b14 50% , black 70% );
+}
+
+
+
+
+.animation .first-row {
+animation: move 20s linear infinite;
+
+}
+@keyframes move{
+    from{
+        transform: translatex(0);
+    }
+    to{
+        transform: translatex(-50%);
+    }
+
+}
+.animation .last-row {
+animation: slid 20s linear infinite;
+animation-direction: reverse;
+
+}
+@keyframes slid{
+    from{
+        transform: translatex(0);
+    }
+    to{
+        transform: translatex(-50%);
+    }
+
+}
+
+.animation .logo img{
+     width: 8%;
+     border-radius: 15px;
+     padding:  5px;
+     box-sizing: border-box;
+   }
+
+   @media (max-width: 575px)  {
+    .animation .logo img { width: 20% ;
+   }
+   }
+   @media (min-width: 576px) ,(max-width: 792px)  {
+    .animation .logo img { width: 15% ;
+   }
+   }
+   @media (min-width: 793px) , (max-width: 1000px)   {
+    .animation .logo img { width: 10% ;
+   }
+   }
+   @media (min-width: 1001px)   {
+    .animation .logo img { width: 8% ;
+   }
+   }
+
+/* end animation  */
+/* ============ */
+/* start our team */
+.color{
+    color: gray;
+}
+.ourteam .row{
+    padding-block: 30px;
+}
+.ourteam .text-2{
+    display: inline-block;
+    transform: rotate(90deg);
+    font-size: 20px;
+    font-weight: bolder;
+}
+.ourteam .text{
+    z-index: 1;
+}
+.ourteam h3{
+    font-size: 20px;
+
+}
+.ourteam .p-1{
+    font-size: 14px;
+
+    line-height: 0.5;
+    padding: 0;
+}
+.ourteam .p-2{
+    font-size: 12px;
+    line-height: 0.5;
+    padding: 0;
+}
+.ourteam .item{
+position: relative;
+
+}
+.ourteam .item::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient( rgba(0,0,0,0.5));
+    transition: 700ms;
+z-index: 2;
+}
+.ourteam .item:hover::after{
+    transform: translatey(-100%);
+}
+.ourteam .item:hover .p-1{
+    color: #CBFE1C;
+    
+}
+.ourteam .item:hover .text-2{
+    color: #CBFE1C;
+    
+}
+/* end our team */
+/* ==================================== */
+
+/* start contact-us */
+.contact-us .demo i{
+    font-size: 28px;
+    color: black;
+    
+}
+.contact-us .icon{
+    margin: 20px;
+    background-color:#CBFE1C;
+    padding: 20px; 
+    width: 75px;
+    height: 75px;
+}
+.contact-us .demo{
+    background-color: #1E2939;
+}
+.contact-us .demo-vip{
+    background-color: #7FED5C;
+}
+.contact-us .demo-vip h3,p{
+    color: black;
+
+}
+.contact-us .demo-vip i{
+    font-size: 20px;
+}
+.contact-us .demo-vip .icon{
+margin: 10px;
+    background-color:#0B0E13;
+    width: 50px;
+    height: 50px;
+}
+.contact-us .info {
+    padding: 30px;
+    background-color: #1E2939;
+
+}
+.contact-us input , select , textarea{
+    background-color: #364153;
+    border: solid 1px #364153;
+    width: auto;
+}
+.contact-us .ckec input{
+    width: 20px;
+    height: 20px;
+}
+.contact-us button{
+    background-color: #CBFE1C;
+    color: black;
+}
+.contact-us .xxx h2{
+    color: #CBFE1C;
+}
+/* end contact-us */
+/* ====================================== */
+/* start footer */
+footer{
+    margin-top: 50px;
+    background-color: #000000;
+}
+footer p{
+    color: gray;
+}
+footer a{
+    text-decoration: none;
+    color: gray;
+}
+footer a:hover{
+    color: #CBFE1C;
+}
+footer .yyy{
+    border-top: solid 2px rgb(180, 173, 173);
+    padding-block: 50px;
+}
+
+
+
+
+
+
+
+
+
